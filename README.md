@@ -12,5 +12,5 @@
 4. Port Forwarding ArgoCD `kubectl port-forward svc/argocd-server -n argocd 8080:80`
 5. Login ArgoCD 'localhost:8080' with username 'admin' and password 'password'
 6. Create Application
-   `kubectl apply -f argocd-app.yaml`
+   `kubectl apply -f argocd/nginx/application.yaml`
 7. Sync Application
